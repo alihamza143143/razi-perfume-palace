@@ -1,0 +1,20 @@
+{
+  "en": {
+    "nav.home": "Home",
+    "nav.story": "Story",
+    "nav.shop": "Shop",
+    "nav.visit": "Visit",
+    "hero.tagline": "A world of scent",
+    "gallery.subtitle": "12 designer scents · 10ml decant pricing",
+    "gallery.otherSizes": "Other sizes available on WhatsApp"
+  },
+  "ur": {
+    "nav.home": "ہوم",
+    "nav.story": "ہماری کہانی",
+    "nav.shop": "شاپ",
+    "nav.visit": "وزٹ",
+    "hero.tagline": "خوشبو کا جہاں",
+    "gallery.subtitle": "12 ڈیزائنر خوشبوئیں · 10ml ڈیکانٹ قیمت",
+    "gallery.otherSizes": "دیگر سائز واٹس ایپ پر دستیاب ہیں"
+  }
+}

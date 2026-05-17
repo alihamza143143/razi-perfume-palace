@@ -1,0 +1,17 @@
+{
+  "primaryWhatsApp": "923338726133",
+  "products": [
+    { "id": "burberry-her", "brand": "Burberry", "name_en": "Her EDT", "name_ur": "ہر EDT", "type": "women", "price": 3499, "image": "/images/bottles/b1.jpg", "tier": "premium" },
+    { "id": "ch-good-girl", "brand": "Carolina Herrera", "name_en": "Good Girl EDP", "name_ur": "گُڈ گرل EDP", "type": "women", "price": 4899, "image": "/images/bottles/b2.jpg", "tier": "premium" },
+    { "id": "ck-defy", "brand": "Calvin Klein", "name_en": "Defy Parfum", "name_ur": "ڈیفائی پرفیوم", "type": "men", "price": 2699, "image": "/images/bottles/b3.jpg", "tier": "premium" },
+    { "id": "burberry-london-men", "brand": "Burberry", "name_en": "London Men EDT", "name_ur": "لندن مین EDT", "type": "men", "price": 2299, "image": "/images/bottles/b4.jpg", "tier": "mid" },
+    { "id": "ck-eternity-intense-w", "brand": "Calvin Klein", "name_en": "Eternity Intense Women EDP", "name_ur": "ایٹرنٹی انٹینس وومن EDP", "type": "women", "price": 2199, "image": "/images/bottles/b5.jpg", "tier": "mid" },
+    { "id": "burberry-weekend", "brand": "Burberry", "name_en": "Weekend EDT", "name_ur": "ویک اینڈ EDT", "type": "unisex", "price": 1999, "image": "/images/bottles/b1.jpg", "tier": "mid" },
+    { "id": "hb-bottled-night", "brand": "Hugo Boss", "name_en": "Bottled Night EDT", "name_ur": "بوٹلڈ نائٹ EDT", "type": "men", "price": 1949, "image": "/images/bottles/b2.jpg", "tier": "mid" },
+    { "id": "ck-euphoria-w", "brand": "Calvin Klein", "name_en": "Euphoria Women EDT", "name_ur": "یوفوریا وومن EDT", "type": "women", "price": 1929, "image": "/images/bottles/b3.jpg", "tier": "mid" },
+    { "id": "ck-eternity-men", "brand": "Calvin Klein", "name_en": "Eternity Men EDT", "name_ur": "ایٹرنٹی مین EDT", "type": "men", "price": 2499, "image": "/images/bottles/b4.jpg", "tier": "mid" },
+    { "id": "ws-eau-my-secret", "brand": "Women Secret", "name_en": "Eau My Secret EDT", "name_ur": "او مائی سیکریٹ EDT", "type": "women", "price": 999, "image": "/images/bottles/b5.jpg", "tier": "entry" },
+    { "id": "ab-her-secret", "brand": "Antonio Banderas", "name_en": "Her Secret Temptation", "name_ur": "ہر سیکریٹ ٹیمپٹیشن", "type": "women", "price": 899, "image": "/images/bottles/b1.jpg", "tier": "entry" },
+    { "id": "benetton-black-intenso", "brand": "Benetton", "name_en": "Black Intenso EDP", "name_ur": "بلیک اینٹینسو EDP", "type": "men", "price": 459, "image": "/images/bottles/b2.jpg", "tier": "entry" }
+  ]
+}

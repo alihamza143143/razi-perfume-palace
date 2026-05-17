@@ -1,0 +1,11 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-maroon-900 text-ivory-100 font-sans; }
+  html[dir="rtl"] body { @apply font-urdu; }
+}

@@ -1,0 +1,73 @@
+:root {
+  --maroon-900: #3B0A0A;
+  --maroon-700: #5A1212;
+  --brand-red: #8B0000;
+  --gold-500: #C9A24B;
+  --gold-300: #E0C481;
+  --ivory-100: #F4EBD0;
+  --ivory-60: rgba(244, 235, 208, 0.6);
+  --ink-900: #0A0606;
+
+  --section-padding-y: clamp(4rem, 8vw, 8rem);
+  --container-max: 1280px;
+
+  --ease-luxe: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-slow: 1.2s;
+}
+
+::selection { background: var(--gold-500); color: var(--ink-900); }
+
+html { scroll-behavior: smooth; }
+html.no-smooth { scroll-behavior: auto; }
+
+/* Particle drift behind hero */
+@keyframes drift {
+  0% { transform: translateY(-10vh) translateX(0); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+  100% { transform: translateY(110vh) translateX(40px); opacity: 0; }
+}
+
+#particles::before, #particles::after {
+  content: '';
+  position: absolute;
+  width: 2px; height: 2px;
+  background: var(--gold-500);
+  border-radius: 50%;
+  box-shadow:
+    10vw 5vh 0 var(--gold-300),
+    25vw 20vh 0 var(--gold-500),
+    40vw 12vh 0 var(--gold-300),
+    60vw 30vh 0 var(--gold-500),
+    75vw 18vh 0 var(--gold-300),
+    90vw 25vh 0 var(--gold-500),
+    15vw 50vh 0 var(--gold-300),
+    35vw 60vh 0 var(--gold-500),
+    55vw 70vh 0 var(--gold-300),
+    80vw 55vh 0 var(--gold-500);
+  animation: drift 18s linear infinite;
+}
+#particles::after { animation-delay: -9s; }
+
+/* Gold shimmer sweep on hover */
+.gold-shimmer { position: relative; overflow: hidden; }
+.gold-shimmer::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+  transform: translateX(-100%);
+  transition: transform 0.7s var(--ease-luxe);
+}
+.gold-shimmer:hover::after { transform: translateX(100%); }
+
+/* Initial state for GSAP reveals — hide before animation */
+[data-reveal] { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  [data-reveal] { opacity: 1 !important; }
+}
